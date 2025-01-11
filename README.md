@@ -1,7 +1,9 @@
 # 🌍 AI Environmental Impact Analyzer
 
 ## 🌟 Project Overview
-The **AI Environmental Impact Analyzer** is a full-stack application designed to calculate and present the environmental impact of consumer goods. Leveraging artificial intelligence, the tool analyzes product descriptions, manufacturing details, and supply chain information to generate an environmental footprint score. This project aims to promote sustainable consumer behavior by providing transparent and actionable insights into the environmental impact of purchased products.
+The **AI Environmental Impact Analyzer** is a decentralized Web3 application designed to calculate and present the environmental impact of consumer goods. By leveraging blockchain technology and artificial intelligence, the tool ensures transparency, trust, and community engagement in promoting sustainable consumer behavior. It analyzes product descriptions, manufacturing details, and supply chain information to generate an environmental footprint score.
+
+This project empowers users to make eco-friendly choices while ensuring that contributions remain part of a shared, open ecosystem under the protection of a decentralized license.
 
 ---
 
@@ -11,6 +13,8 @@ The **AI Environmental Impact Analyzer** is a full-stack application designed to
 - **🚚 Supply Chain Assessment**: Tracks supply chain details to determine carbon footprint and sustainability.
 - **📊 Environmental Footprint Score**: Aggregates data into a comprehensible score for the user.
 - **💻 User-Friendly Interface**: Interactive dashboard for displaying detailed analysis and suggestions for eco-friendly alternatives.
+- **🔗 Blockchain Integration**: Ensures data integrity and decentralized storage of impact analyses.
+- **🛡️ Secure Web3 Authentication**: Allows users to log in with crypto wallets (e.g., MetaMask) to maintain privacy and decentralization.
 
 ---
 
@@ -18,22 +22,21 @@ The **AI Environmental Impact Analyzer** is a full-stack application designed to
 ### 🎨 Frontend
 - **React.js**: For building a responsive and dynamic user interface.
 - **Tailwind CSS**: For modern and customizable styling.
+- **Web3.js / Ethers.js**: For blockchain interactions.
 
 ### 🌐 Backend
 - **Node.js with Express.js**: For handling API requests and server-side logic.
 - **Python (FastAPI)**: For AI model integration and data analysis.
+- **IPFS (InterPlanetary File System)**: For decentralized file storage.
 
 ### 🤖 AI/ML
 - **Natural Language Processing (NLP)**: To analyze textual data like product descriptions and supply chain details.
 - **TensorFlow/PyTorch**: For training and deploying AI models.
 - **Pre-trained Models**: Fine-tuned models like BERT for textual analysis.
 
-### 🗄️ Database
-- **MongoDB**: For storing user data and analysis results.
-
-### 🚀 Deployment
-- **Frontend**: Deployed on Vercel/Netlify.
-- **Backend**: Hosted on AWS/Heroku.
+### 🗄️ Blockchain
+- **Ethereum / Polygon**: For decentralized smart contract execution.
+- **Smart Contracts**: Written in Solidity to handle tokenized incentives and contributions.
 
 ---
 
@@ -41,7 +44,8 @@ The **AI Environmental Impact Analyzer** is a full-stack application designed to
 ### Prerequisites
 - **Node.js** and **npm**
 - **Python** (version 3.8 or higher)
-- MongoDB instance (local or cloud-based)
+- MetaMask or another Web3 wallet
+- IPFS CLI (optional for local decentralized storage)
 
 ### Setup Instructions
 1. Clone the repository:
@@ -108,13 +112,15 @@ The **AI Environmental Impact Analyzer** is a full-stack application designed to
 
 ## 🚀 Roadmap
 1. **Phase 1**: Core functionality (MVP)
-   - Product analysis and footprint scoring.
-2. **Phase 2**: Advanced features
+   - Decentralized Product analysis and footprint scoring.
+2. **Phase 2**: Blockchain integration
+   - Smart contract for tokenized rewards.
+   - Decentralized data storage with IPFS.
    - Eco-friendly product suggestions.
    - Integration with e-commerce platforms.
-3. **Phase 3**: Scalability
-   - Global product database.
-   - Multilingual support.
+4. **Phase 3**: Scalability
+   - Global decentralized database.
+   - Multilingual and multi-chain support.
 
 ---
 
@@ -138,3 +144,12 @@ For questions or feedback, please reach out to:
 - **Email**: austinbediako4@gmail.com
 
 Feel free to report issues or suggest improvements via the [GitHub Issues](https://github.com/Kaeytee/Ai-Environmental-Impact-Analyzer) page.
+
+### Key Updates:
+1. **Decentralization Focus**: Included Web3, blockchain, and IPFS integration.
+2. **Web3 Authentication**: Secure login via crypto wallets.
+3. **License**: Highlighted a decentralized-friendly license for contribution protection.
+4. **Blockchain Roadmap**: Added details on tokenized rewards and smart contracts.
+
+If you’d like help drafting a **Decentralized Autonomous License** or customizing smart contract details, let me know!
+
