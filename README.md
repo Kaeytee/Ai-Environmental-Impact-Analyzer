@@ -151,5 +151,5 @@ Feel free to report issues or suggest improvements via the [GitHub Issues](https
 3. **License**: Highlighted a decentralized-friendly license for contribution protection.
 4. **Blockchain Roadmap**: Added details on tokenized rewards and smart contracts.
 
-If you’d like help drafting a **Decentralized Autonomous License** or customizing smart contract details, let me know!
+If you’d like help by **Contributing**, let me know!
 
