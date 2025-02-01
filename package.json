@@ -1,0 +1,37 @@
+{
+  "name": "ai-environmental-impact-analyzer",
+  "version": "1.0.0",
+  "description": "## 🌟 Project Overview The **AI Environmental Impact Analyzer** is a decentralized Web3 application designed to calculate and present the environmental impact of consumer goods. By leveraging blockchain technology and artificial intelligence, the tool ensures transparency, trust, and community engagement in promoting sustainable consumer behavior. It analyzes product descriptions, manufacturing details, and supply chain information to generate an environmental footprint score.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaeytee/Ai-Environmental-Impact-Analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaeytee/Ai-Environmental-Impact-Analyzer/issues"
+  },
+  "homepage": "https://github.com/Kaeytee/Ai-Environmental-Impact-Analyzer#readme",
+  "devDependencies": {
+    "@chainlink/contracts": "^1.3.0",
+    "@graphprotocol/graph-cli": "^0.95.0",
+    "@graphprotocol/graph-ts": "^0.37.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "arweave": "^1.15.5",
+    "axios": "^1.7.9",
+    "graphql-request": "^7.1.2",
+    "ipfs-http-client": "^60.0.1"
+  }
+}
